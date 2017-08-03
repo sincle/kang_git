@@ -23,6 +23,7 @@ public class YY {
             @Override
             public void subscribe(ObservableEmitter<Integer> e) throws Exception {
                 e.onNext(1);
+                System.out.println("-------------");
                 e.onNext(2);
                 e.onNext(3);
                 System.out.println("-------------");
